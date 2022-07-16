@@ -1,0 +1,29 @@
+Command line:
+   BitShiftRegParalle_BitShiftRegParalle_sch_tb_isim_beh.exe
+     -simmode  gui
+     -simrunnum  0
+     -socket  53787
+
+Wed Apr 20 15:37:25 2022
+
+
+ Elaboration Time: 0.015625 sec
+
+ Current Memory Usage: 5150.15 Meg
+
+ Total Signals          : 128
+ Total Nets             : 74
+ Total Signal Drivers   : 41
+ Total Blocks           : 21
+ Total Primitive Blocks : 19
+ Total Processes        : 44
+ Total Traceable Variables  : 44
+ Total Scalar Nets and Variables : 650
+Total Line Count : 133
+
+ Total Simulation Time: 0.046875 sec
+
+ Current Memory Usage: 4678.29 Meg
+
+Wed Apr 20 15:39:56 2022
+

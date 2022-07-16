@@ -1,0 +1,10 @@
+xst -intstyle ise -ifn "C:/Users/Megan/Downloads/BrauchlerLab05-20211024T045543Z-001/Lab6/BitShiftRegParalle.xst" -ofn "C:/Users/Megan/Downloads/BrauchlerLab05-20211024T045543Z-001/Lab6/BitShiftRegParalle.syr" 
+ngdbuild -intstyle ise -dd _ngo -nt timestamp -uc BitShiftRegParalle.ucf -p xc7a100t-csg324-3 BitShiftRegParalle.ngc BitShiftRegParalle.ngd  
+xst -intstyle ise -ifn "C:/Users/Megan/Downloads/BrauchlerLab05-20211024T045543Z-001/Lab6/BitShiftRegParalle.xst" -ofn "C:/Users/Megan/Downloads/BrauchlerLab05-20211024T045543Z-001/Lab6/BitShiftRegParalle.syr" 
+ngdbuild -intstyle ise -dd _ngo -nt timestamp -uc BitShiftRegParalle.ucf -p xc7z010-clg400-3 "BitShiftRegParalle.ngc" BitShiftRegParalle.ngd  
+map -intstyle ise -p xc7z010-clg400-3 -w -logic_opt off -ol high -t 1 -xt 0 -register_duplication off -r 4 -mt off -ir off -pr off -lc off -power off -o BitShiftRegParalle_map.ncd BitShiftRegParalle.ngd BitShiftRegParalle.pcf 
+ngdbuild -intstyle ise -dd _ngo -nt timestamp -uc BitShiftRegParalle.ucf -p xc7z010-clg400-3 "BitShiftRegParalle.ngc" BitShiftRegParalle.ngd  
+map -intstyle ise -p xc7z010-clg400-3 -w -logic_opt off -ol high -t 1 -xt 0 -register_duplication off -r 4 -mt off -ir off -pr off -lc off -power off -o BitShiftRegParalle_map.ncd BitShiftRegParalle.ngd BitShiftRegParalle.pcf 
+par -w -intstyle ise -ol high -mt off BitShiftRegParalle_map.ncd BitShiftRegParalle.ncd BitShiftRegParalle.pcf 
+trce -intstyle ise -v 3 -s 3 -n 3 -fastpaths -xml BitShiftRegParalle.twx BitShiftRegParalle.ncd -o BitShiftRegParalle.twr BitShiftRegParalle.pcf -ucf BitShiftRegParalle.ucf 
+bitgen -intstyle ise -f BitShiftRegParalle.ut BitShiftRegParalle.ncd 

@@ -1,0 +1,64 @@
+#-----------------------------------------------------------
+# PlanAhead v14.7 (64-bit)
+# Build 321239 by xbuild on Fri Sep 27 19:29:51 MDT 2013
+# Start of session at: Fri Oct 29 09:52:52 2021
+# Process ID: 30240
+# Log file: C:/Users/Megan/Downloads/BrauchlerLab05-20211024T045543Z-001/Lab6/planAhead_run_2/planAhead.log
+# Journal file: C:/Users/Megan/Downloads/BrauchlerLab05-20211024T045543Z-001/Lab6/planAhead_run_2/planAhead.jou
+#-----------------------------------------------------------
+start_gui
+source C:/Users/Megan/Downloads/BrauchlerLab05-20211024T045543Z-001/Lab6/pa.fromNetlist.tcl
+set_property iostandard LVCMOS33 [get_ports [list CLK]]
+set_property iostandard LVCMOS33 [get_ports [list D0]]
+set_property iostandard LVCMOS33 [get_ports [list D2]]
+set_property iostandard LVCMOS33 [get_ports [list D1]]
+set_property iostandard LVCMOS33 [get_ports [list D3]]
+set_property iostandard LVCMOS33 [get_ports [list Q0]]
+set_property iostandard LVCMOS33 [get_ports [list Q1]]
+set_property iostandard LVCMOS33 [get_ports [list Q2]]
+set_property iostandard LVCMOS33 [get_ports [list Q3]]
+set_property iostandard LVCMOS33 [get_ports [list S0]]
+set_property iostandard LVCMOS33 [get_ports [list S1]]
+set_property package_pin "" [get_ports [list  CLK]]
+startgroup
+set_property package_pin P15 [get_ports CLK]
+endgroup
+set_property package_pin "" [get_ports [list  D0]]
+startgroup
+set_property package_pin B19 [get_ports CLK]
+endgroup
+set_property package_pin "" [get_ports [list  D0]]
+startgroup
+set_property package_pin Y16 [get_ports CLK]
+endgroup
+startgroup
+set_property package_pin T16 [get_ports D0]
+endgroup
+startgroup
+set_property package_pin W13 [get_ports D1]
+endgroup
+startgroup
+set_property package_pin P15 [get_ports D2]
+endgroup
+startgroup
+set_property package_pin G15 [get_ports D3]
+endgroup
+startgroup
+set_property package_pin D18 [get_ports Q0]
+endgroup
+startgroup
+set_property package_pin G14 [get_ports Q1]
+endgroup
+startgroup
+set_property package_pin M15 [get_ports Q2]
+endgroup
+startgroup
+set_property package_pin M14 [get_ports Q3]
+endgroup
+startgroup
+set_property package_pin P16 [get_ports S0]
+endgroup
+startgroup
+set_property package_pin R18 [get_ports S1]
+endgroup
+save_constraints

@@ -1,0 +1,8 @@
+INTSTYLE=ise
+INFILE=C:\Users\Megan\Documents\Classes\Comp Arch\Lab\Lab6\Lab6\BitShiftRegParalle.ncd
+OUTFILE=C:\Users\Megan\Documents\Classes\Comp Arch\Lab\Lab6\Lab6\BitShiftRegParalle.bit
+FAMILY=Zynq
+PART=xc7z010-3clg400
+WORKINGDIR=C:\Users\Megan\Documents\Classes\Comp Arch\Lab\Lab6\Lab6
+LICENSE=WebPack
+USER_INFO=212037926_0_0_035

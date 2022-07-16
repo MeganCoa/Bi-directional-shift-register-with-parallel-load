@@ -1,0 +1,10 @@
+#-----------------------------------------------------------
+# PlanAhead v14.7 (64-bit)
+# Build 321239 by xbuild on Fri Sep 27 19:29:51 MDT 2013
+# Start of session at: Fri Oct 29 10:07:27 2021
+# Process ID: 9344
+# Log file: C:/Users/Megan/Documents/Classes/Comp Arch/Lab/Lab6/Lab6/planAhead_run_3/planAhead.log
+# Journal file: C:/Users/Megan/Documents/Classes/Comp Arch/Lab/Lab6/Lab6/planAhead_run_3/planAhead.jou
+#-----------------------------------------------------------
+start_gui
+source {C:/Users/Megan/Documents/Classes/Comp Arch/Lab/Lab6/Lab6/pa.fromNetlist.tcl}
